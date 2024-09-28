@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Banner from './Banner';
 import Category from './Category';
 import Products from './Products';
@@ -12,14 +12,6 @@ import Footer from './Footer';
 
 const Home = () => {
    
-    const [count,setCount]=(0);
-  useEffect(() => {
-   
-    setCount((prev) => prev + 1);
-    localStorage.setItem('user', JSON.stringify(count));
-    let val = JSON.parse(localStorage.getItem('user'));
-    console.log('count', val);
-  }, [ ]);
   return (
     <>
     <Banner/>
