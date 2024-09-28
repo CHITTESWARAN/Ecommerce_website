@@ -18,7 +18,7 @@ const Home = () => {
     setCount((prev) => prev + 1);
     localStorage.setItem('user', JSON.stringify(count));
     let val = JSON.parse(localStorage.getItem('user'));
-    console.log('Stored value:', val);
+    console.log('count', val);
   }, [ ]);
   return (
     <>
