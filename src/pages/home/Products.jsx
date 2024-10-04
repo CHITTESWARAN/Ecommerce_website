@@ -50,8 +50,7 @@ const Products = () => {
 
       }
 
-      setfiltere
-      dItem(sortedItems)
+      setfilteredItem(sortedItems)
    }
 
   
